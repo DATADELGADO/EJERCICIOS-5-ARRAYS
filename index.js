@@ -47,9 +47,11 @@ for (let i = 0; i < _itCompanies_.length; i++) {
 
 //11. Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.  /// revisar
 
-for (let i = 0; i < _itCompanies_.length; i++) {
-    console.log(_itCompanies_[i].toLocaleUpperCase());
-}
+console.log(_itCompanies_.join(" ").toLocaleUpperCase().split(" "));
+
+// for (let i = 0; i < _itCompanies_.length; i++) {
+//     console.log(_itCompanies_[i].toLocaleUpperCase());
+// }
 
 
 //12. Imprime el array como una oración: Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon son grandes empresas de TI.
