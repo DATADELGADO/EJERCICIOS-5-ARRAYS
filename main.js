@@ -82,8 +82,8 @@ console.log(`el rango es ${ages[ages.length - 1] - ages[0]}`);
 
 // Compare el valor de(mínimo promedio) y(máximo  promedio), use el método _abs()_
 
-console.log(Math.round(Math.abs(ages[0] - promedio)));
-console.log(Math.round(Math.abs(ages[ages.length - 1] - promedio)));
+console.log(Math.abs(ages[0] - promedio));
+console.log(Math.abs(ages[ages.length - 1] - promedio));
 
 
 
